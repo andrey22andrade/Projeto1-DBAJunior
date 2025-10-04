@@ -8,20 +8,21 @@ Este repositório faz parte do meu portfólio como **DBA Júnior**, demonstrando
 
 Este projeto tem como objetivo demonstrar habilidades fundamentais de um **DBA Júnior**, incluindo:
 
-- Criação de banco de dados no SQL Server  
-- Criação de tabelas iniciais  
-- Organização de scripts SQL em repositório  
-- Documentação do ambiente de desenvolvimento  
+- Criação e configuração de um banco de dados no SQL Server
+- Criação de tabelas relacionadas (Clientes, Produtos, Vendas, ItensVenda)
+- Inserção de dados de exemplo para testes
+- Organização de scripts SQL em repositório
+- Documentação do ambiente de desenvolvimento
 
 ---
 
 ## 🖥️ Ambiente Utilizado
 
-- **SQL Server 2022 Developer Edition**  
-- **SQL Server Management Studio (SSMS)**  
-- **Sistema Operacional:** Windows 11  
+- **SQL Server 2022 Developer Edition**
+- **SQL Server Management Studio (SSMS)**
+- **Sistema Operacional:** Windows 11
 
-📌 *Screenshot do ambiente:*
+📌 _Screenshot do ambiente:_
 
 ![SSMS aberto](imagens/ssms_aberto.png)
 
@@ -41,24 +42,37 @@ Este projeto tem como objetivo demonstrar habilidades fundamentais de um **DBA J
 
 ---
 
+## 🧱 Estrutura do Banco de Dados
+
+**Banco de Dados:** `LojaDBAJunior`
+
+### Tabelas Criadas:
+
+- **Clientes** → informações básicas dos clientes
+- **Produtos** → catálogo de produtos e estoque
+- **Vendas** → registros de vendas realizadas
+- **ItensVenda** → detalhamento de cada item vendido
+
+---
+
 ## ▶️ Como Executar
 
-1. Abra o **SQL Server Management Studio (SSMS)**.  
-2. Conecte-se ao servidor SQL Server.  
-3. Execute os scripts na seguinte ordem:  
-   - `01_criacao_banco.sql`  
-   - `02_criacao_tabelas.sql`  
-   - `03_inserts_exemplo.sql`  
-4. Verifique se as tabelas foram criadas e se os dados foram inseridos corretamente.  
+1. Abra o **SQL Server Management Studio (SSMS)**.
+2. Conecte-se ao servidor SQL Server.
+3. Execute os scripts na seguinte ordem:
+   - `01_criacao_banco.sql`
+   - `02_criacao_tabelas.sql`
+   - `03_inserts_exemplo.sql`
+4. Expanda o banco **LojaDBAJunior** no Object Explorer e confirme a criação das tabelas e inserção dos dados.
 
 ---
 
 ## 🔜 Próximos Passos
 
-- Criar tabelas adicionais (Pedidos, ItensPedido, Pagamentos).  
-- Inserir mais dados fictícios para testes.  
-- Realizar **backup e restore** do banco de dados.  
-- Criar usuários e permissões específicas.  
+- Adicionar novas tabelas (Ex: Funcionários, Pagamentos).
+- Criar _views_ e _stored procedures_ para consultas.
+- Realizar **backup e restore** do banco de dados.
+- Criar usuários e permissões específicas.
 
 ---
 
@@ -68,4 +82,4 @@ Este projeto é voltado para **portfólio** e simula atividades reais de um **DB
 
 ---
 
-✉️ *Autor:* [Andrey Andrade](https://github.com/andrey22andrade)
+✉️ _Autor:_ [Andrey Andrade](https://github.com/andrey22andrade)
