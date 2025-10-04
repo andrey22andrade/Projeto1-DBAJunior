@@ -1,21 +1,27 @@
 # Projeto 1 - Criação e Configuração de Banco de Dados no SQL Server
 
-## 🎯 Objetivo
-Este projeto tem como objetivo demonstrar habilidades básicas de um **DBA Júnior**, incluindo:
+Este repositório faz parte do meu portfólio como **DBA Júnior**, demonstrando conhecimentos em instalação, configuração e administração básica de bancos de dados no **SQL Server**.
 
-- Criação de banco de dados no SQL Server
-- Criação de tabelas iniciais
-- Organização de scripts SQL em repositório
-- Documentação do ambiente de desenvolvimento
+---
+
+## 🎯 Objetivo
+
+Este projeto tem como objetivo demonstrar habilidades fundamentais de um **DBA Júnior**, incluindo:
+
+- Criação de banco de dados no SQL Server  
+- Criação de tabelas iniciais  
+- Organização de scripts SQL em repositório  
+- Documentação do ambiente de desenvolvimento  
 
 ---
 
 ## 🖥️ Ambiente Utilizado
-- **SQL Server 2022 Developer Edition**
-- **SQL Server Management Studio (SSMS)**
-- Sistema Operacional: Windows 11
 
-📌 Screenshot do ambiente:
+- **SQL Server 2022 Developer Edition**  
+- **SQL Server Management Studio (SSMS)**  
+- **Sistema Operacional:** Windows 11  
+
+📌 *Screenshot do ambiente:*
 
 ![SSMS aberto](imagens/ssms_aberto.png)
 
@@ -36,9 +42,10 @@ Este projeto tem como objetivo demonstrar habilidades básicas de um **DBA Júni
 ---
 
 ## ▶️ Como Executar
+
 1. Abra o **SQL Server Management Studio (SSMS)**.  
 2. Conecte-se ao servidor SQL Server.  
-3. Execute os scripts na ordem:  
+3. Execute os scripts na seguinte ordem:  
    - `01_criacao_banco.sql`  
    - `02_criacao_tabelas.sql`  
    - `03_inserts_exemplo.sql`  
@@ -47,12 +54,18 @@ Este projeto tem como objetivo demonstrar habilidades básicas de um **DBA Júni
 ---
 
 ## 🔜 Próximos Passos
-- Criar tabelas adicionais (Pedidos, ItensPedido, Pagamentos)  
-- Inserir mais dados fictícios para testes  
-- Realizar backup e restore do banco  
-- Criar usuários e permissões específicas  
+
+- Criar tabelas adicionais (Pedidos, ItensPedido, Pagamentos).  
+- Inserir mais dados fictícios para testes.  
+- Realizar **backup e restore** do banco de dados.  
+- Criar usuários e permissões específicas.  
 
 ---
 
 ## 📌 Observações
-Este projeto é voltado para **portfólio** e simula atividades reais de um **DBA Júnior**.
+
+Este projeto é voltado para **portfólio** e simula atividades reais de um **DBA Júnior**, servindo como base para estudos e futuras melhorias.
+
+---
+
+✉️ *Autor:* [Andrey Andrade](https://github.com/andrey22andrade)
