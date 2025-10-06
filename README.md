@@ -8,7 +8,7 @@ Este repositório faz parte do meu portfólio como **DBA Júnior**, demonstrando
 
 Este projeto tem como objetivo demonstrar habilidades fundamentais de um **DBA Júnior**, incluindo:
 
-- Instalação e configuração do SQL Server Developer Edition
+- Instalação e configuração do SQL Server Developer Edition  
 - Criação e configuração de um banco de dados no SQL Server  
 - Criação de tabelas relacionadas (Clientes, Produtos, Vendas, ItensVenda)  
 - Inserção de dados de exemplo para testes  
@@ -58,6 +58,24 @@ A versão usada neste projeto é o **SQL Server 2022 Developer Edition**,
 idêntica à versão Enterprise, mas voltada apenas para **fins de desenvolvimento**.
 
 📘 *Esses conceitos garantem que o ambiente SQL Server esteja configurado de forma correta e padronizada, assegurando desempenho e compatibilidade.*
+
+---
+
+## 🔍 Arquitetura do Banco e Armazenamento
+
+O SQL Server organiza seus bancos de dados em arquivos físicos e lógicos, garantindo performance e segurança dos dados.
+
+### Estrutura Física:
+- **Arquivos de Dados Primários (.mdf)** → Contêm as tabelas e objetos principais.  
+- **Arquivos de Dados Secundários (.ndf)** → Utilizados para dividir dados em múltiplos discos.  
+- **Arquivos de Log (.ldf)** → Registram todas as transações realizadas.
+
+### Estrutura Lógica:
+- **Página:** menor unidade de armazenamento (8 KB)  
+- **Extent:** grupo de 8 páginas (64 KB)  
+- **Filegroup:** agrupamento lógico de arquivos (.mdf e .ndf)
+
+No banco **LojaDBAJunior**, o armazenamento segue o padrão **PRIMARY FILEGROUP**, com arquivos de dados e log criados automaticamente pelo SQL Server.
 
 ---
 
